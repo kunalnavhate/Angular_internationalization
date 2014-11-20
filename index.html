@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My App</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body ng-app="at">
+    <div class="span4">
+      
+      <div ng-controller="Ctrl">
+        <button class="btn" ng-click="changeLanguage('en')" >English</button>
+        <button class="btn" ng-click="changeLanguage('po')" >Portuguese</button>
+      </div>
+    </div>
+    <form id="form7" name="form7" class="wufoo  page1" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate="" action="https://gallery.wufoo.com/embed/p1wdsb6t09k0cig/def/embedKey=p1wdsb6t09k0cig248714&amp;entsource=&amp;referrer=https%3Awuslashwuslashwww.google.co.inwuslash#public">
+      
+      <header id="header" class="info">
+        <h2 translate="workshop_registration">Workshop Registration</h2>
+        <div translate="reg_now">Register now while seats are available!</div>
+      </header>
+      <ul>
+        <li id="fo7li0" class="name notranslate      ">
+          <label translate="name" class="desc" id="title0" for="Field0">
+            Name
+            <span id="req_0" class="req">*</span>
+          </label>
+          <span>
+          <input id="Field0" name="Field0" type="text" class="field text" value="" size="2" tabindex="1" onkeyup="handleInput(this);" onchange="handleInput(this);">
+          <label for="Field0" translate="title">Title</label>
+          </span>
+          <span>
+          <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="2" onkeyup="handleInput(this);" onchange="handleInput(this);" required="">
+          <label for="Field1" translate="first">First</label>
+          </span>
+          <span>
+          <input id="Field2" name="Field2" type="text" class="field text ln" value="" size="12" tabindex="3" onkeyup="handleInput(this);" onchange="handleInput(this);" required="">
+          <label for="Field2" translate="last">Last</label>
+          </span>
+          <span>
+          <input id="Field3" name="Field3" type="text" class="field text" value="" size="3" tabindex="4" onkeyup="handleInput(this);" onchange="handleInput(this);">
+          <label for="Field3" translate="suffix">Suffix</label>
+          <input   type="text" class="field text" value="" size="3" tabindex="4" onkeyup="handleInput(this);" onchange="handleInput(this);">
+          </span>
+        </li>
+        <li id="fo7li5" class="complex notranslate      ">
+          <label translate="address" class="desc" id="title5" for="Field5">
+            Address
+            <span id="req_5" class="req">*</span>
+          </label>
+          <div>
+            <span class="full addr1">
+            <input id="Field5" name="Field5" type="text" class="field text addr" value="" tabindex="5" onkeyup="handleInput(this);" onchange="handleInput(this);" required="">
+            <label for="Field5" translate="street_address">Street Address</label>
+            </span>
+            <span class="full addr2">
+            <input id="Field6" name="Field6" type="text" class="field text addr" value="" tabindex="6" onkeyup="handleInput(this);" onchange="handleInput(this);">
+            <label for="Field6" translate="address_line_two">Address Line 2</label>
+            </span>
+            <span class="left city">
+            <input id="Field7" name="Field7" type="text" class="field text addr" value="" tabindex="7" onkeyup="handleInput(this);" onchange="handleInput(this);" required="">
+            <label for="Field7" translate="city">City</label>
+            </span>
+            <span class="right state">
+            <input id="Field8" name="Field8" type="text" class="field text addr" value="" tabindex="8" onkeyup="handleInput(this);" onchange="handleInput(this);" required="">
+            </span>
+          </div>
+        </li>
+        <li id="fo7li11" class="notranslate      ">
+          <label translate="email" class="desc" id="title11" for="Field11">
+            Email
+            <span id="req_11" class="req">*</span>
+          </label>
+          <div>
+            <input id="Field11" name="Field11" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="11" onkeyup="handleInput(this);" onchange="handleInput(this);" required="">
+          </div>
+        </li>
+      </ul>
+    </form>
+    <script src="app/angular.min.js"></script>
+    <script src="app/angular-translate.min.js"></script>
+    <script src="app/angular-translate-loader-static-files.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/controllers/translateController.js"></script>
+    <script src="app/docs-setup.js"></script>
+    <script src="app/docs.js"></script>
+  </body>
+</html>
