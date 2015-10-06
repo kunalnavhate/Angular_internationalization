@@ -5,7 +5,7 @@
           prefix: '/json/',
           suffix: '.json'
         });
-        $translateProvider.translations('en', {
+        /*$translateProvider.translations('en', {
           TITLE: 'Hello',
           FOO: 'This is a paragraph.',
           BUTTON_LANG_EN: 'english',
@@ -16,7 +16,7 @@
           FOO: 'Dies ist ein Paragraph.',
           BUTTON_LANG_EN: 'englisch',
           BUTTON_LANG_DE: 'deutsch'
-        });
+        });*/
         $translateProvider.preferredLanguage('po');
       });
 
